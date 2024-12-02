@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=DynaPuff:wght@400..700&family=Modak&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Yeseva+One&display=swap');
+
+/* Universal */
+*{
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background-color: #f0f0f0;
+  color: #171717;
+}
+.brand {
+  font-family: "Caveat", cursive;
+}
+
+/* Navbar */
+.fixed-top {
+  background-color: #f0f0f0;
+  height: 48px;
+}
+.navbrand {
+  font-family: "Caveat", cursive;
+  font-size: 32px;
+  color: #217571;
+}
+.icon {
+  padding-top: 8px;
+}
+navbar {
+  display: flex;
+  justify-content: space-between;
+  place-items: center;
+}
+
+
+/* Hero */
+.texthero {
+  text-align: center;
+}
+.wrapper .static-txt {
+  color: #171717;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+}
+.wrapper .dynamic-txts {
+  height: 30px;
+  line-height: 30px;
+  overflow: hidden;
+  text-align: center;
+}
+.dynamic-txts li {
+  list-style: none;
+  color: #217571;
+  font-size: 18px;
+  font-weight: 500;
+  position: relative;
+  padding-top: -15px;
+  animation: slide 1s steps(2) infinite;
+}
+@keyframes slide {
+  100% {
+    top: -360px;
+  }
+}
+
+
+/* Main Content */
+main {
+  background-color: #171717;
+}
+
+
+/* Highlight */
+.highlight {
+  text-align: center;
+}
+
+
+/* Service */
+.services {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+}
+.bgservice {
+  background-color: #217571;
+  width: 33%;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  place-content: center;
+  place-items: center;
+  font-weight: 600;
+  padding-top: 6px;
+  color: #f0f0f0;
+}
+
+
+/* Skills & Tools */
+.skillstools {
+  text-align: center;
+  color: #f0f0f0;
+}
+
+/* Course */
+.allcourse {
+  display: flex;
+  justify-content: space-between;
+  gap: 4px;
+}
+.card {
+  text-align: center;
+  box-shadow: 2px 2px 0 0 #171717;
+}
+
+
+/* Contact */
+.brandbottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+/* Footer */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  font-weight: 500;
+}
